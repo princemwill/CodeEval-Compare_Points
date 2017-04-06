@@ -17,9 +17,14 @@ namespace Compare_Points
                     string line = reader.ReadLine();
                     if (null == line)
                         continue;
-                    // do something with line
-                }
+                                        
+                    string[] coordinates = line.Split();
+                    Console.WriteLine(coordinates[0]);
 
+
+                }
+            Console.ReadKey();
+            
         }
     }
 }
