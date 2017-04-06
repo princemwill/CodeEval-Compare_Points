@@ -62,18 +62,7 @@ namespace Compare_Points
                         {
                             location.Append("");
                         }
-                        if (p - r < 0)
-                        {
-                            location.Append("E");
-                        }
-                        else if (p - r > 0)
-                        {
-                            location.Append("W");
-                        }
-                        else if (p - r == 0)
-                        {
-                            location.Append("");
-                        }
+                                               
                                         
                     Console.WriteLine(location);
 
