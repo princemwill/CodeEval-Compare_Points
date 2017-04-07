@@ -11,7 +11,7 @@ namespace Compare_Points
     {
         static void Main(string[] args)
         {
-            using (StreamReader reader = File.OpenText(@"C:\Users\princ\Documents\Notes\CodeEval_ComparePoints.txt"))
+            using (StreamReader reader = File.OpenText(args[0]))
                 while (!reader.EndOfStream)
                 {
                     string line = reader.ReadLine();
