@@ -50,7 +50,9 @@ namespace Compare_Points
                         {
                             location.Append("");
                         }
-                        else if (o - q < 0)
+
+
+                        if (o - q < 0)
                         {
                             location.Append("E");
                         }
